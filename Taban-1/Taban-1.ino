@@ -22,7 +22,7 @@ void loop(){
     digitalWrite(PWM, LOW);
     lastEncoderValue = encoderValue;
   }
-  else{
+  if (encoderValue{
     digitalWrite(PWM, HIGH);
   }
 }
