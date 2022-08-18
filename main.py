@@ -54,8 +54,6 @@ while True:
     if ENAstate != ENAlastState:
         if ENBstate != ENAstate:
             counter -= 1
-            MotorAntiClockWise()
         else:
             counter += 1
-            MotorClockWise()
         print(f"{alpha} Degrees")
